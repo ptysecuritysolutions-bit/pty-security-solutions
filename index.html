@@ -1,6 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><style>
+.services {
+  display: flex;
+  gap: 15px;
+}
+
+.service-card {
+  flex: 1;
+  background: #0b1220;
+  padding: 15px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+/* Mobile fix */
+@media (max-width: 768px) {
+  .services {
+    flex-direction: column;
+  }
+
+  .service-card {
+    width: 100%;
+  }
+}
+</style>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>PTY Security Solutions | CCTV & Security Services</title>
